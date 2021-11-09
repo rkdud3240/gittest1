@@ -8,10 +8,10 @@ public class Wrapper_Ex3 {
 		String str2 = "10.5";
 		String str3 = "true";
 		
-		//int °ªÀ» ¹®ÀÚ°ªÀ¸·Î ¹Ù²Ü ¶§
+		//int ê°’ì„ ë¬¸ìê°’ìœ¼ë¡œ ë°”ê¿€ ë•Œ
 		//S + "" --> String
 		
-		//¹®ÀÚ¿­À» ¹ÙÀÌÆ®·Î
+		//ë¬¸ìì—´ì„ ë°”ì´íŠ¸ë¡œ
 		byte b = Byte.parseByte(str);
 		int i = Integer.parseInt(str);
 		short s = Short.parseShort(str);
@@ -24,20 +24,23 @@ public class Wrapper_Ex3 {
 		
 		//
 //		boolean bl = Boolean.parseBoolean(str2);
-//		System.out.println(bl);//Á¦´ë·Î ÇüÀÌ ¾È ¸ÂÀ¸¸é false
+//		System.out.println(bl);//ì œëŒ€ë¡œ í˜•ì´ ì•ˆ ë§ìœ¼ë©´ false
 		boolean bl = Boolean.parseBoolean(str3);
 		System.out.println(bl);
 		if (Boolean.parseBoolean(str3)) {
-			System.out.println("booleanÇüÀ¸·Î º¯°æ¿Ï·á.");
+			System.out.println("booleaní˜•ìœ¼ë¡œ ë³€ê²½ì™„ë£Œ.");
 		}
-		//¹®Á¦ 1
+		//ë¬¸ì œ 1
 		String str10 = "1001";
 		String str11 = "2001";
 		
-		//str10°ú str11À» µ¡¼À ¿¬»ê ÇØÁÖ¼¼¿ä
-		//°á°ú°ª ±îÁö Ãâ·Â
-		//str10°ú str11À» °ö¼À ¿¬»ê ÇØÁÖ¼¼¿ä
-		//°á°ú°ª ±îÁö Ãâ·Â
+		//str10ê³¼ str11ì„ ë§ì…ˆ ì—°ì‚° í•´ì£¼ì„¸ìš”
+		//ê²°ê³¼ê°’ ê¹Œì§€ ì¶œë ¥
+		//str10ê³¼ str11ì„ ê³±ì…ˆ ì—°ì‚° í•´ì£¼ì„¸ìš”
+		//ê²°ê³¼ê°’ ê¹Œì§€ ì¶œë ¥
+		
+		//í•œê¸€ ê¹¨ì§ ì½”ë“œ í™•ì¸
+		
 		
 		int n1 =  Integer.parseInt(str10);
 		int n2 =  Integer.parseInt(str11);
@@ -45,13 +48,13 @@ public class Wrapper_Ex3 {
 		int p = n1 + n2;
 		int x = n1 * n2;
 		
-		System.out.println("µ¡¼À°á°ú : "+ p);
-		System.out.println("°ö¼À°á°ú : "+ x);
+		System.out.println("ë§ì…ˆê²°ê³¼ : "+ p);
+		System.out.println("ê³±ì…ˆê²°ê³¼ : "+ x);
 
 		
-		System.out.println("¹®ÀÚ¿­ byte°ª º¯È¯ : " + b);
-		System.out.println("¹®ÀÚ¿­ int°ª º¯È¯ : " + i);
-		System.out.println(b);//sysout : ¸Ş¼­µå ¿À¹ö·ÎµùÀÇ ÇÙ½É
+		System.out.println("ë¬¸ìì—´ byteê°’ ë³€í™˜ : " + b);
+		System.out.println("ë¬¸ìì—´ intê°’ ë³€í™˜ : " + i);
+		System.out.println(b);//sysout : ë©”ì„œë“œ ì˜¤ë²„ë¡œë”©ì˜ í•µì‹¬
 
 	}
 

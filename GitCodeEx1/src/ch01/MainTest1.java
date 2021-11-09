@@ -6,5 +6,4 @@ public class MainTest1 {
 		System.out.println("깃 실제로 사용해보기");
 		System.out.println("코드를 수정했습니다.");
 	}
-
 }

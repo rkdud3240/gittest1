@@ -8,7 +8,7 @@ public class StudentMainTest2 {
 		Student student1 = new Student();
 		//1.접근해서 name, height,weight, grade 값을 줘서 
 		//화면에 출력해주라
-		student1.name = "김가영";
+		student1.name = "영영영";
 		student1.weight = 10;
 		student1.height = 20;
 		student1.grade = 30;
@@ -23,7 +23,7 @@ public class StudentMainTest2 {
 		Student student2 = new Student();
 		//1.접근해서 name, height, weight, grade 갑승ㄹ 줘서
 		//화면에 출력해주라
-		student2.name = "김가일";
+		student2.name = "일일일";
 		student2.weight = 11;
 		student2.height = 22;
 		student2.grade = 33;

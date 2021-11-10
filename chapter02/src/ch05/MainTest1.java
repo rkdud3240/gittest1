@@ -75,5 +75,4 @@ public class MainTest1 {
 //		System.out.println("-----------------");
 //		subway1.showInfo();
 	}
-
 }

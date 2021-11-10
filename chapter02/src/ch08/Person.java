@@ -39,19 +39,24 @@ public class Person {
 	//main
 	public static void main(String[] args) {
 		Person person1 = new Person();
-//		person1.showInfo();
+		person1.showInfo();
 		person1.setName("홍길동");
 		
 		//참조값을 받아서 다른 인스턴스 변수에 주소를 할당해 보자.
 		Person person2 = person1.getPerson();
-//		person2.showInfo();
+		
+		person2.showInfo();
 		person2.setName("이순신");
+		
+		System.out.println("-----------------");
 		
 		System.out.println(person1);
 		System.out.println(person2);
 		
+		System.out.println("-----------------");
+		
 		person1.showInfo();
-		person2.showInfo();
+		person1.showInfo();
 	}//end of main
 	
 }//end

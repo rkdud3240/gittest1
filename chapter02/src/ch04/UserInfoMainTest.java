@@ -6,7 +6,7 @@ public class UserInfoMainTest {
 		
 		UserInfo userInfo = new UserInfo("questzz");
 		UserInfo userInfo2 = new UserInfo("user02", "1234");
-		
+		userInfo.showInfo();
+		userInfo2.showInfo();
 	}
-
 }

@@ -32,8 +32,6 @@ public class WarriorMainTest {
 		System.out.println(w2.name);
 		System.out.println(w2.color);
 
-		
-		
 	}//end of main
 
 }//end of class

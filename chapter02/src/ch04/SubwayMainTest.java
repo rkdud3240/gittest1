@@ -23,8 +23,6 @@ public class SubwayMainTest {
 		subway2.showInfo();
 		System.out.println("---------------");
 		subway3.showInfo();
-
 		
 	}
-
 }

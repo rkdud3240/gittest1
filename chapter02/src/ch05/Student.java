@@ -23,6 +23,7 @@ public class Student {
 	
 	//정보창 보여주기
 	public void showInfo() {
-		System.out.println(name+"님의 남은 돈은 : " + money + "입니다.");
+		System.out.println(name+"님의 남은 돈은 : " 
+							+ money + "입니다.");
 	}
 }

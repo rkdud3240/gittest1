@@ -1,4 +1,4 @@
-package ch04;
+package ch06;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

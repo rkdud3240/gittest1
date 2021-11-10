@@ -25,5 +25,4 @@ public class Bus {
 		System.out.println(passengerCount + "명이고");	
 		System.out.println("현재 수입은 " + money + "원입니다.");	
 		}
-	
 }

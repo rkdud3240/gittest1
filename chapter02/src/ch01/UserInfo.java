@@ -7,7 +7,6 @@ public class UserInfo {
 	String userName;
 	String userAddress;
 	long phoneNumber;//21억 --> 01012341234
-	//실무에서는 String 쓴다
-	
-	
+	//실무에서는 폰넘버 String 쓴다
+
 }

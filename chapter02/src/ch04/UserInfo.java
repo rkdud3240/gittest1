@@ -19,6 +19,10 @@ public class UserInfo {
 		this.userPassword = userPassword;
 	}
 	
+	public void showInfo() {
+		System.out.println("userId : " + userId);
+		System.out.println("userPassword : " + userPassword);
+	}
 	//자동 생성자 만들기
 	//alt+shift+s > Generate Constructor using Fields > 체크
 	

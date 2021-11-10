@@ -35,7 +35,7 @@ public class MainTest1 {
 	UserInfo userInfo1 = new UserInfo();
 	
 	userInfo1.phoneNumber = 1234123412;
-	userInfo1.userAddress = "부산시 진구 에이원프라자";
+	userInfo1.userAddress = "OO시 OO구 OO동 123-4번지 5층";
 	userInfo1.userId = "koreajava";
 	userInfo1.userName = "코리아 IT";
 	userInfo1.userPassword ="koreajava2021";

@@ -14,7 +14,7 @@ public class FunctionMainTest2 {
 			System.out.println("total : "+ total);
 			
 		
-//////////만든 함수를 사용해 봅시다.///////////////////
+//---------------만든 함수를 사용해 봅시다.-------------------
 			//Q1.
 			
 			int result1 = intAdd(2, 4, 5);
@@ -28,8 +28,9 @@ public class FunctionMainTest2 {
 			//Q3.
 				printArticle("오늘 수업도 화이팅");
 				
-				
-	}// end of main////////////////////////////
+	
+	}// end of main
+	
 	//1. 반환 값이 없는 함수 설계하기
 	public static void sayHello(String greeting) {
 		System.out.println(greeting);
@@ -52,7 +53,9 @@ public class FunctionMainTest2 {
 		result = n1 + n2;
 		return result;
 	}
-	//////////함수를 만들어 봅시다.///////////////////
+	
+	//---------------함수를 만들어 봅시다.-------------------
+	
 	//Q1. 리턴값 int, 매개변수 n1,n2,n3이름 ->intAdd
 	public static int intAdd(int n1, int n2, int n3) {
 		int sum = n1 + n2 + n3;//
@@ -67,7 +70,4 @@ public class FunctionMainTest2 {
 		System.out.println(article);
 	}
 		
-
-	
-	
 }//end of class

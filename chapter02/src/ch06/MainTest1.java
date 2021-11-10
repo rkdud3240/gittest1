@@ -24,5 +24,4 @@ public class MainTest1 {
 		
 		
 	}//end of main
-
 }//end of class

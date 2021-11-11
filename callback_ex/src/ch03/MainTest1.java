@@ -7,7 +7,7 @@ public class MainTest1 {
 		//해커 뉴스 객체 생성
 		WriteArticle hackerNews = new HackerNews();
 		WriteArticle sbsNews = new SbsNews();
-		WriteArticle mbsNews = new MbsNews();
+		WriteArticle mbsNews = new MbcNews();
 		
 		//기사작성
 //		MyArticle article = new MyArticle("오늘 날씨가 15도 입니다.", hackerNews);

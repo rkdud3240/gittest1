@@ -1,4 +1,4 @@
-package ch01;
+package ch02;
 
 import java.awt.FlowLayout;
 
